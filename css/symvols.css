@@ -1,0 +1,53 @@
+header {
+	background: url(img/bgcSymvols.jpg) no-repeat center top / cover;
+}
+
+.gerb {
+	float: left;
+    margin: 0 0 5px 5px; 
+}
+
+.flag {
+	float: right;
+    margin: 0 0 5px 5px; 
+}
+.information p {
+	font-size: 1.5rem;
+	
+}
+
+.information img {
+	margin-right: 2rem;
+}
+
+h3 {
+	text-transform: uppercase;
+	font-size: 3em;
+	margin-bottom: 1rem;
+	cursor: pointer;
+}
+
+h3:hover {
+	letter-spacing: 3px;
+	color: #fed136;
+}
+
+.symvol_item {
+	margin-top: 5rem;
+}
+
+ blockquote:before, blockquote:after {
+    font-size: 3em;
+    color: #800;
+   } 
+   blockquote:before {
+    content: '«';
+    float: left;
+    margin-top: -0.4em;
+   }
+   blockquote:after {
+    content: '»';
+    float: right;
+    margin-top: -1.2em;
+   }
+   blockquote p { margin: 1em 3em; }

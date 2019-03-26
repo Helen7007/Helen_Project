@@ -1,0 +1,44 @@
+header {
+	background: url(img/int.jpg) no-repeat center top / cover;
+}
+
+.left {
+	float: left;
+    
+    margin-right: 2rem;
+}
+
+.right {
+	float: right;
+	margin-left: 2rem;
+	}
+
+img {
+	 margin: 0 0 5px 5px;
+}
+
+p {
+	font-size: 19.5px;
+}
+
+.first, .second{
+	margin-top: 2rem;
+}
+
+.second {
+	background-color: #f7f7f7;
+	padding: 1rem;
+}
+ h2 {
+	color: black;
+	margin-top: 3rem;
+	text-transform: uppercase;
+	cursor: pointer;
+	margin-bottom: 1rem;
+
+}
+
+h2:hover{
+	letter-spacing: 3px;
+	color: #fed136;
+}

@@ -1,0 +1,22 @@
+header {
+	background: url(img/sunflowers.jpg) no-repeat center top / cover;
+}
+
+ h2 {
+	color: black;
+	margin-top: 3rem;
+	text-transform: uppercase;
+	cursor: pointer;
+
+}
+
+h2:hover{
+	letter-spacing: 3px;
+	color: #fed136;
+}
+
+#infromation_block_second {
+	background-color: #f7f7f7;
+	padding: 1rem;
+	margin-top: 1rem;
+}

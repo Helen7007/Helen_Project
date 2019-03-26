@@ -1,0 +1,114 @@
+.navaside {
+	position: fixed;
+	left: auto;
+	right: -1em;
+	bottom: auto;
+	margin: auto;
+	width: 5%;
+	height: 100%;
+	background-color: #fed136;
+	opacity: 0.1;
+}
+
+.navaside_content {
+	opacity: 0;
+
+}
+.navaside_content:hover {
+	opacity: 1;
+}
+
+.navaside:hover {
+	width: 20%;
+	opacity: 1;
+	z-index: 2;
+}
+
+.navaside h1 {
+	color: #fff;
+	font-size: 3rem;
+	margin-top: 1rem;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.cities li {
+	text-transform: uppercase;
+	font-size: 2.3rem;
+	display: block;
+
+}
+
+.cities a {
+	color: #fed136;
+	text-decoration: none;
+	margin-left: 3.5rem;
+
+}
+
+
+.li_content {
+	width: 30rem;
+	background-color: black;
+	margin-left: -3.5rem;
+}
+
+.li_content:hover {
+		background-color: white;
+		margin-left: -4.5rem;
+
+}
+
+.li_content a:hover {
+	letter-spacing: 3px;
+
+}
+
+header {
+	background: url(img/bgc1.jpg) no-repeat center top / cover;
+
+}
+
+.facts {
+	margin-top: 80px;
+
+
+}
+
+.fact_item {
+	width: 270px;
+	float: left;
+	text-align: center;
+
+}
+
+
+.fact_item h3 {
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-top: 1rem;
+}
+
+.fact_item p {
+	color: #777777;
+	font-size: 14px;
+	line-height: 1.55em;
+}
+
+.fact_item:last-child {
+	float: right;
+}
+
+.fact_item:nth-child(2) {
+	margin-left: 60px;
+}
+
+#facts {
+	padding-bottom: 120px;
+}
+
+#map {
+	background: #f7f7f7;
+	padding-bottom: 120px;
+}
